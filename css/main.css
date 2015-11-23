@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+/* --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+
+a{
+	text-decoration:none;
+}
+
+img {
+    border: 0;
+}
+
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+
+/*--------------------------------------- */
+
+body{
+	font-family: "inconsolata";
+	background-color: rgb(251, 251, 249);
+	color: rgb(254, 59, 33);
+}
+
+
+h1{
+	color: rgb(254, 59, 33);
+	font-size: 3em;
+	letter-spacing: 7px;
+}
+
+h2{
+	color:rgba(97, 97, 97, 1);
+	font-size: 2.5em;
+}
+
+
+.intro p{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.section{
+	text-align:center;
+}
+
+#info {		
+	color: rgba(97, 97, 97, 1);
+	font-size: 25px;
+	position: absolute;
+	letter-spacing: 7px;
+	text-align: left;
+	padding-left: 25px;
+	top: 15px;
+	width: 12%;
+	z-index: 70;
+}
+
+a {
+	color: rgba(23, 23, 23, 1);
+	text-decoration: none;
+	
+}
+
+#info:hover { 
+	color: rgb(23, 23, 23);
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+#suma_menu{
+  display: none;
+}
+
+#info:hover #suma_menu {
+  display: inline-block;
+  -webkit-transition: display 1s ease;
+  -moz-transition: display 1s ease;
+  -o-transition: display 1s ease;
+   transition: display 1s ease;
+}
+

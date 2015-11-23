@@ -1,0 +1,45 @@
+body {
+	font-family: 'inconsolata';
+	margin: 0px;
+	overflow: hidden;
+}
+
+#info {		
+	color: rgb(95, 99, 108);
+	font-size: 30px;
+	position: absolute;
+	letter-spacing: 7px;
+	text-align: left;
+	padding-left: 25px;
+	top: 15px;
+	width: 12%;
+
+}
+
+
+a {
+	color: rgb(166, 173, 181);
+	text-decoration: none;
+	
+}
+
+#info:hover { 
+	color: rgb(166, 173, 181);
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+
+#suma_menu{
+  display: none;
+}
+
+#info:hover #suma_menu {
+  display: inline-block;
+  -webkit-transition: display 1s ease;
+  -moz-transition: display 1s ease;
+  -o-transition: display 1s ease;
+   transition: display 1s ease;
+}
